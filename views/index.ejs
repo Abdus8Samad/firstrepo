@@ -1,4 +1,14 @@
 <%- include('partials/header') %>
 <h1>Index Page</h1>
 <h2>Something More</h2>
+<form action="/" method="POST">
+    <input type="text" name="username" />
+    <input type="password" name="password" />
+    <input type="submit" />
+</form>
+<form action="/login" method="POST">
+    <input type="text" name="username" />
+    <input type="password" name="password" />
+    <input type="submit" />
+</form>
 <%- include('partials/footer') %>
